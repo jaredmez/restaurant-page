@@ -1,1 +1,1 @@
-console.log("first webpack hit");
+(()=>{"use strict";(()=>{const e=document.querySelector("#content"),t=document.createElement("div");t.classList.add("title"),t.setAttribute("id","initialLoad");const d=document.createElement("h1"),c=document.createTextNode("Bleu Bistro");d.appendChild(c),t.appendChild(d),e.appendChild(t)})(),console.log("first webpack hit")})();

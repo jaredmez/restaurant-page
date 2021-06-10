@@ -1,0 +1,31 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.bg {
+    background-image: url("https://media.cntraveler.com/photos/5859aad8eaa56c5e65d43539/16:9/w_1200%2Cc_limit/best-restaurants-NYC-Charlie-Bird-interior-2016.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: .8;
+}
+
+h1 {
+    color: blue;
+}
+
+.title {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    border: 2px solid black;
+    background-color: rgb(212, 193, 196);
+}
