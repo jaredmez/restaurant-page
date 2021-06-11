@@ -14,8 +14,10 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y:-20px;
 
     opacity: .8;
+   
 }
 
 h1 {
@@ -24,8 +26,50 @@ h1 {
 
 .title {
     max-width: 500px;
-    margin: 0 auto;
-    padding: 0px 10px;
-    border: 2px solid black;
+    margin: 0px auto;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 2px 5px #888888;
     background-color: rgb(212, 193, 196);
+    
+}
+
+nav {
+    position: relative;
+    background-color: rgb(56, 55, 55);
+    padding:10px;
+    height: 25px;
+    width:100%;
+    text-align: center;
+    margin:auto;
+    color:rgb(173, 169, 169);
+}
+
+/* body {
+    position:relative;
+    top: 0;
+} */
+
+button {
+    border: none;
+    background-color: rgb(56, 55, 55);
+    font-size: 20px;
+    color: rgb(173, 169, 169)
+}
+
+.contact {
+    max-width: 300px;
+    margin: 0px auto;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 5px #888888;
+    background-color: rgb(212, 193, 196);
+    text-align: center;
+}
+
+.menu {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 2px 5px #888888;
+    background-color: rgb(212, 193, 196);
+
 }
